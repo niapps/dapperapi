@@ -40,7 +40,6 @@ namespace DapperAPI
             services.AddApplicationInsightsTelemetry(Configuration);
 
             services.AddMvc();
-            //services.AddTransient<ISmsSender, AuthMessageSender>();
             services.AddTransient<IRepository<Product>, ProductRepository>();
         }
 

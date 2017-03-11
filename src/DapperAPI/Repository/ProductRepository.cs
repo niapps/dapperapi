@@ -1,11 +1,9 @@
-﻿using System;
+﻿using Dapper;
+using DapperAPI.Model;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Threading.Tasks;
-using Dapper;
-using DapperAPI.Model;
 
 namespace DapperAPI.Repository
 {
