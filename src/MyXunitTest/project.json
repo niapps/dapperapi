@@ -1,0 +1,30 @@
+﻿{
+  "version": "1.0.0-*",
+  "testRunner": "xunit",
+  "buildOptions": {
+    "emitEntryPoint": false,
+    "copyToOutput": [ "appsettings.json" ]
+  },
+ 
+
+  "dependencies": {
+    "DapperAPI": "1.0.0-*",
+    "dotnet-test-xunit": "1.0.0-rc2-build10025",
+    "Microsoft.NETCore.App": {
+      "version": "1.0.0-rc2-3002702",
+      "type": "platform"
+    },
+    "Moq": "4.7.1",
+    "xunit": "2.2.0"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "dnxcore50",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}

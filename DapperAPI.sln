@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{921F9058-CF5C-4B84-B42F-56DA9970B77A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A43D2699-AFB7-49BF-AC22-F06664DF5DFE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DapperAPI", "src\DapperAPI\DapperAPI.xproj", "{66E64B0B-E299-4733-ABF8-AC4C091A1E22}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyXunitTest", "src\MyXunitTest\MyXunitTest.xproj", "{35944839-5779-47CE-8B0F-D620A3504837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66E64B0B-E299-4733-ABF8-AC4C091A1E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E64B0B-E299-4733-ABF8-AC4C091A1E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E64B0B-E299-4733-ABF8-AC4C091A1E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E64B0B-E299-4733-ABF8-AC4C091A1E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35944839-5779-47CE-8B0F-D620A3504837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35944839-5779-47CE-8B0F-D620A3504837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35944839-5779-47CE-8B0F-D620A3504837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35944839-5779-47CE-8B0F-D620A3504837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66E64B0B-E299-4733-ABF8-AC4C091A1E22} = {921F9058-CF5C-4B84-B42F-56DA9970B77A}
+		{35944839-5779-47CE-8B0F-D620A3504837} = {921F9058-CF5C-4B84-B42F-56DA9970B77A}
+	EndGlobalSection
+EndGlobal

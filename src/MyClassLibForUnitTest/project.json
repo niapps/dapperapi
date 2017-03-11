@@ -1,0 +1,31 @@
+﻿{
+  "version": "1.0.0-*",
+  "testRunner": "NUnit",
+  "buildOptions": {
+    "emitEntryPoint": false,
+    "copyToOutput": [ "appsettings.json" ]
+  },
+  "dependencies": {
+    "DapperAPI": "1.0.0-*",
+    "Microsoft.NETCore.App": {
+      "version": "1.0.0-rc2-3002702",
+      "type": "platform"
+    },
+    "NUnitTestAdapter": "2.1.0",
+    "xunit": "2.2.0"
+  },
+  "Microsoft.NETCore.App": {
+    "version": "1.0.0-rc2-3002702",
+    "type": "platform"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "dnxcore50",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}
